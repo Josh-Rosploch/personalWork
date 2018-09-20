@@ -9,5 +9,6 @@ public class Monkey {
 		System.out.println("How tall is an adult monkey in meters?");
 		monkey = input.nextDouble();
 		System.out.println("The monkey is: " + monkey + " meters tall.");
+		input.close();
 	}
 }

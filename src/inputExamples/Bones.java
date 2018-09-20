@@ -9,5 +9,6 @@ public class Bones {
 		System.out.println("How many bones have you broke in your life?");
 		bones = input.nextInt();
 		System.out.println("You broke " + bones + " bones in your life.");
+		input.close();
 	}
 }
