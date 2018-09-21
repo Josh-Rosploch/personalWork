@@ -1,4 +1,4 @@
-package outputExamples;
+package inputExamples;
 
 import java.util.Scanner;
 
@@ -9,5 +9,6 @@ public class Age {
 		System.out.println("What is your age?");
 		age = input.nextInt();
 		System.out.println("Your age is " + age);
+		input.close();
 	}
 }
