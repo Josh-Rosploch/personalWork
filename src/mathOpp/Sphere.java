@@ -10,7 +10,7 @@ public class Sphere {
 		System.out.println("What is the radius of the sphere?");
 		r = input.nextDouble();
 		r = 4.0 / 3.0 * Math.PI * r * r * r;
-		System.out.println("The volume of the sphere is: " + r);
+		System.out.println("The volume of the sphere is: " + r + ".");
 		input.close();
 	}
 }
