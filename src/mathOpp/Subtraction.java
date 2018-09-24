@@ -12,6 +12,7 @@ public class Subtraction {
 		firstnum = input.nextInt();
 		System.out.println("What is the second number of the equation?");
 		secondnum = input.nextInt();
+		input.close();
 		System.out.println("The answer is: " + (firstnum - secondnum));
 	}
 }
