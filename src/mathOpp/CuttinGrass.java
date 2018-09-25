@@ -16,6 +16,7 @@ public class CuttinGrass {
 		System.out.println("What is the radius of the fountain? (In feet)");
 		r = input.nextDouble();
 		input.close();
-		System.out.println("The cost of cuttin the lawn is $" + (((l * w) - (Math.PI * r * r)) / REG * PRICE) + ".");
+		System.out.println("The cost of cuttin the lawn is $"
+				+ Math.round(((l * w) - (Math.PI * r * r)) / REG * PRICE * 100.0) / 100.0 + ".");
 	}
 }
