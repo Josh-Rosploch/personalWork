@@ -16,9 +16,9 @@ public class TakeATrip {
 		System.out.println("What was the total price of gas?");
 		gas = input.nextDouble();
 		input.close();
-		System.out
-				.println("The trip is " + distance + " miles long, " + (distance / mpg) + " gallons of gas was used, $"
-						+ gas + " was the total cost of the gas, and the average cost per gallon of gas was $"
-						+ (distance / gas) + ".");
+		System.out.println(
+				"The trip is " + distance + " miles long.\n" + Math.round((distance / mpg) * 100.0) / 100.0 + " gallons of gas was used.\n$" + gas
+						+ " was the total cost of the gas.\nThe average cost per gallon of gas was $"
+						+ Math.round((gas / (distance / mpg)) * 1000.0) / 1000.0 + ".");
 	}
 }
