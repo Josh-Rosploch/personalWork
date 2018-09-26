@@ -10,7 +10,7 @@ public class SpeedingTicket {
 		System.out.println("What speed where you going?");
 		speed = input.nextInt();
 		input.close();
-		System.out.println("The speed limit is 60 mph, your speed was " + speed
-				+ ", the cost of the speeding ticket is " + (((speed - 60) * 55) + 40) + ".");
+		System.out.println("The speed limit is 30 mph, your speed was " + speed
+				+ ", the cost of the speeding ticket is " + (((speed - 31) * 40) + 55) + ".");
 	}
 }
