@@ -17,7 +17,7 @@ public class MakeSomeChange {
 		change = change % 0.1;
 		System.out.println((int) (change / 0.05) + " nickles.");
 		change = change % 0.05;
-		change = Math.round(change * 100.0) / 100.0;
-		System.out.println((int) (change / 0.01) + " pennies.");
+		change = Math.round(change * 100.0);
+		System.out.println((int) (change) + " pennies.");
 	}
 }
