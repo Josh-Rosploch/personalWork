@@ -7,7 +7,9 @@ public class Test {
 		Friend billy = new Friend();
 		Friend sammy = new Friend();
 		Friend kyle = new Friend();
+		jenny.sayMessage();
 		billy.sayMessage();
+		sammy.sayMessage();
 		kyle.sayMessage();
 	}
 }
