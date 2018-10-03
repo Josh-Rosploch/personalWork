@@ -3,8 +3,11 @@ package oop;
 public class RoomTest {
 
 	public static void main(String[] args) {
-		Room wall = new Room();
-		wall.area();
-		wall.areaWithDoor();
+		Room closet = new Room();
+		Room kitchen = new Room();
+		kitchen = closet;
+		Room basement = new Room();
+		closet = basement;
+		closet.area();
 	}
 }
