@@ -7,5 +7,7 @@ public class NumbersTest {
 		bob.sayNumber(7.5);
 		bob.sayNumberPlus2(7.5);
 		bob.saySum(10.7, 5.3);
+		int square = bob.returnSquare(5);
+		System.out.println(square);
 	}
 }
