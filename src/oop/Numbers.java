@@ -24,7 +24,7 @@ public class Numbers {
 		return l * w;
 	}
 
-	public double roundUp(double n) {
-		return Math.ceil(n);
+	public int roundUp(double n) {
+		return (int) Math.ceil(n);
 	}
 }

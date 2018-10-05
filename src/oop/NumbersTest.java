@@ -9,9 +9,9 @@ public class NumbersTest {
 		bob.saySum(10.7, 5.3);
 		int square = bob.returnSquare(5);
 		System.out.println(square);
-		int area = bob.returnArea(5,10);
+		int area = bob.returnArea(5, 10);
 		System.out.println(area);
-		double round = bob.roundUp(6.12421556432);
+		int round = bob.roundUp(6.12421556432);
 		System.out.println(round);
 	}
 }
