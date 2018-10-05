@@ -19,4 +19,12 @@ public class Numbers {
 	public int returnSquare(int num1) {
 		return num1 * num1;
 	}
+
+	public int returnArea(int l, int w) {
+		return l * w;
+	}
+
+	public double roundUp(double n) {
+		return Math.ceil(n);
+	}
 }
