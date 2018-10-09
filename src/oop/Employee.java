@@ -26,6 +26,6 @@ public class Employee {
 	}
 
 	public void giveRaise() {
-		wage = wage * .1 + wage;
+		wage = wage * 1.1;
 	}
 }
