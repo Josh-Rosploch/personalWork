@@ -1,24 +1,35 @@
 package oop;
 
 public class Rectangle {
-	public int l;
-	public int w;
+	public double length;
+	public double width;
 
 	public Rectangle() {
-		l = -999;
-		w = -999;
+		length = -999.0;
+		width = -999.0;
 	}
 
-	public int getL() {
-		return l;
+	public double returnLength() {
+		return length;
 	}
 
-	public int getW() {
-		return w;
+	public double returnWidth() {
+		return width;
 	}
 
-	public void newLW(int newL, int newW) {
-		l = newL;
-		w = newW;
+	public void newLength(double newLength) {
+		length = newLength;
+	}
+
+	public void newWidth(double newWidth) {
+		width = newWidth;
+	}
+
+	public double perimeter() {
+		return ((length + width) * 2.0);
+	}
+
+	public double area() {
+		return (length * width);
 	}
 }

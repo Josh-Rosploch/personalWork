@@ -4,14 +4,22 @@ public class Circle {
 	public double radius;
 
 	public Circle() {
-		radius = -999;
+		radius = -999.0;
 	}
 
-	public double getRadius() {
+	public double returnRadius() {
 		return radius;
 	}
 
-	public void setRadius(double newRadius) {
+	public void changeRadius(double newRadius) {
 		radius = newRadius;
+	}
+
+	public double circumference() {
+		return (2 * Math.PI * radius);
+	}
+
+	public double area() {
+		return (Math.PI * radius * radius);
 	}
 }
