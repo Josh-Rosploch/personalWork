@@ -8,7 +8,32 @@ public class RightTriangle {
 		base = -999.0;
 		height = -999.0;
 	}
-	
-	public
 
+	public double returnBase() {
+		return base;
+	}
+
+	public void setBase(double newBase) {
+		base = newBase;
+	}
+
+	public double returnHeight() {
+		return height;
+	}
+
+	public void setAge(double newHeight) {
+		height = newHeight;
+	}
+
+	public double hypot() {
+		return Math.sqrt(base * base + height * height);
+	}
+
+	public double perimeter() {
+		return Math.sqrt(base * base + height * height) + base + height;
+	}
+
+	public double area() {
+		return (base * height / 2);
+	}
 }
