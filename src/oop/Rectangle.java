@@ -17,11 +17,11 @@ public class Rectangle {
 		return width;
 	}
 
-	public void newLength(double newLength) {
+	public void setLength(double newLength) {
 		length = newLength;
 	}
 
-	public void newWidth(double newWidth) {
+	public void setWidth(double newWidth) {
 		width = newWidth;
 	}
 

@@ -11,7 +11,7 @@ public class Circle {
 		return radius;
 	}
 
-	public void changeRadius(double newRadius) {
+	public void setRadius(double newRadius) {
 		radius = newRadius;
 	}
 

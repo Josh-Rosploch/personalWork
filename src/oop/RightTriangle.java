@@ -21,7 +21,7 @@ public class RightTriangle {
 		return height;
 	}
 
-	public void setAge(double newHeight) {
+	public void setHeight(double newHeight) {
 		height = newHeight;
 	}
 
@@ -30,7 +30,7 @@ public class RightTriangle {
 	}
 
 	public double perimeter() {
-		return Math.sqrt(base * base + height * height) + base + height;
+		return hypot() + base + height;
 	}
 
 	public double area() {
