@@ -1,18 +1,60 @@
 package oop;
 
 public class Car {
+	public double mPG;
+	public double maxGas;
+	public double totalGas;
+	public double odometer;
+
 	public Car() {
+		mPG = 20.0;
+		maxGas = 20.0;
+		totalGas = 20.0;
+		odometer = 0.0;
 	}
 
-	public void sayOdometer() {
-		System.out.println("The odometer reads 7,504 miles.");
+	public double returnMPG() {
+		return mPG;
 	}
 
-	public void sayFlat() {
-		System.out.println("The tire is flat.");
+	public void setMPG(double num) {
+		mPG = num;
 	}
 
-	public void sayThirsty() {
-		System.out.println("The car is out of gas.");
+	public double returnMaxGas() {
+		return maxGas;
+	}
+
+	public void setMaxGas(double num) {
+		maxGas = num;
+	}
+
+	public double returnTotalGas() {
+		return totalGas;
+	}
+
+	public void setTotalGas(double num) {
+		totalGas = num;
+	}
+
+	public double returnOdometer() {
+		return odometer;
+	}
+
+	public void setOdometer(double num) {
+		odometer = num;
+	}
+
+	public double fillGasNeed() {
+		return (maxGas - totalGas);
+	}
+
+	public void fillGas(double num) {
+		totalGas += num;
+	}
+
+	public void driveCar(double num) {
+		odometer += num;
+		totalGas -= (num / mPG);
 	}
 }

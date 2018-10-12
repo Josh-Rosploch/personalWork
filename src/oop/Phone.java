@@ -41,9 +41,7 @@ public class Phone {
 		lastNum = num;
 	}
 
-	public int returnEmergency()
-
-	{
+	public int returnEmergency() {
 		return emergency;
 	}
 
