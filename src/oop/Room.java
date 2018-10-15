@@ -13,6 +13,7 @@ public class Room {
 		int l = input.nextInt();
 		int w = input.nextInt();
 		System.out.println("The area of the wall is " + l * w + " feet squared.");
+		input.close();
 	}
 
 	public void areaWithDoor() {
@@ -24,5 +25,6 @@ public class Room {
 		int dl = input.nextInt();
 		int dw = input.nextInt();
 		System.out.println("The area of the wall is " + (l * w - dl * dw) + " feet squared.");
+		input.close();
 	}
 }

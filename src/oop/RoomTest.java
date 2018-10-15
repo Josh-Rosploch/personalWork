@@ -9,5 +9,6 @@ public class RoomTest {
 		Room basement = new Room();
 		closet = basement;
 		closet.area();
+		kitchen.area();
 	}
 }

@@ -1,7 +1,11 @@
-public  return() {
-	return ;
-}
+package oop;
 
-public void set() {
-	;
+public class CopyPaste {
+	public int returnn() {
+		return 5;
+	}
+
+	public void set() {
+		return;
+	}
 }
