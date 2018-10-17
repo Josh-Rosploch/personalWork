@@ -9,8 +9,8 @@ public class HeightTest {
 		double height = input.nextDouble();
 		System.out.println("What is your shoe size?");
 		double shoeSize = input.nextDouble();
-		System.out.println(height < 62);
-		System.out.println(shoeSize > 9);
+		System.out.println(height < 62.0);
+		System.out.println(shoeSize > 9.0);
 		input.close();
 	}
 }
