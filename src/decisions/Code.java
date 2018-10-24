@@ -28,4 +28,4 @@ public class Code {
 				+ "\nThe largest number entered is: " + bigBoy);
 		input.close();
 	}
-}
+}?>B<>
