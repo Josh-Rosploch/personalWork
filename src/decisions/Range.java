@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Range {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		double small = 999999999;
-		double big = -999999999;
 		System.out.println("Please enter a number :");
 		double number = input.nextDouble();
+		double small = number;
+		double big = number;
 		do {
 			if (number > big) {
 				big = number;
