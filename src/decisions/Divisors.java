@@ -21,7 +21,8 @@ public class Divisors {
 					System.out.print((n / div) + "\t");
 				}
 			}
-			System.out.println("\nTotal divisors for " + n + " is: " + tD + "\n-----------------------------------------------------------------------------------");
+			System.out.println("\nTotal divisors for " + n + " is: " + tD
+					+ "\n-----------------------------------------------------------------------------------");
 			// Check if the total is larger than the previous total
 			if (tD > bTD) {
 				// Replace old total with the new total
@@ -33,6 +34,7 @@ public class Divisors {
 			tD = 0;
 		}
 		// Output the biggest Int
-		System.out.println("The biggest number is " + bN + " with " + bTD + " divisors.\n-----------------------------------------------------------------------------------");
+		System.out.println("The biggest number is " + bN + " with " + bTD
+				+ " divisors.\n-----------------------------------------------------------------------------------");
 	}
 }
