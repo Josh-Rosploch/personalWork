@@ -9,7 +9,8 @@ public class Divisors {
 		// Biggest Number
 		int bN = 0;
 		// n = Number
-		for (int n = 1; n <= 1000; n++) {
+	System.out.println("_____________________________________________________________________________________________________________________________________________________");
+		for (int n = 1; n <= 100; n++) {
 			System.out.print("Divisors for " + n + ": ");
 			// div = Divisor Test
 			for (int div = 1; div <= n; div++) {
@@ -22,7 +23,7 @@ public class Divisors {
 				}
 			}
 			System.out.println("\nTotal divisors for " + n + " is: " + tD
-					+ "\n-----------------------------------------------------------------------------------");
+					+ "\n_____________________________________________________________________________________________________________________________________________________");
 			// Check if the total is larger than the previous total
 			if (tD > bTD) {
 				// Replace old total with the new total
@@ -35,6 +36,6 @@ public class Divisors {
 		}
 		// Output the biggest Int
 		System.out.println("The biggest number is " + bN + " with " + bTD
-				+ " divisors.\n-----------------------------------------------------------------------------------");
+				+ " divisors.\n_____________________________________________________________________________________________________________________________________________________");
 	}
 }
