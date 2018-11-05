@@ -6,16 +6,13 @@ public class HeadsOrTails {
 	public static void main(String[] args) {
 		Random rng = new Random();
 		int min = 1;
-		int max = 2;
-		int heads = 0;
-		int tails = 0;
-		for (int flips = 1; flips <= 100; flips++) {
-			if (min == (min + rng.nextInt(max - min + 1))) {
-				heads++;
-			} else {
-				tails++;
+		int max = 13;
+		int multOfThree = 0;
+		for (int flips = 1; flips <= 87; flips++) {
+			if (((min + rng.nextInt(max - min + 1)) % 3) == 0) {
+				multOfThree++;
 			}
 		}
-		System.out.println("Total Heads: " + heads + "\nTotal Tails: " + tails);
+		System.out.println("Total Multiples of Three: " + multOfThree);
 	}
 }
