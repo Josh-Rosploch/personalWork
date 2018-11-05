@@ -1,4 +1,4 @@
-package decisions;
+package randomNumbers;
 
 import java.util.Random;
 
