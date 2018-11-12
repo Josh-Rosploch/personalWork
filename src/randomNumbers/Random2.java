@@ -1,8 +1,8 @@
-package decisions;
+package randomNumbers;
 
 import java.util.Random;
 
-public class HeadsOrTails {
+public class Random2 {
 	public static void main(String[] args) {
 		Random rng = new Random();
 		int min = -50;
