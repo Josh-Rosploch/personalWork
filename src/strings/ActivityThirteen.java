@@ -14,5 +14,6 @@ public class ActivityThirteen {
 		System.out.println(ssn.substring(5));
 		System.out.println(ssn.substring(3, 5));
 		System.out.println(ssn.substring(0, 3));
+		input.close();
 	}
 }

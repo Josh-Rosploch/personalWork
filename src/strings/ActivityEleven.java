@@ -10,5 +10,6 @@ public class ActivityEleven {
 		for (int numb = 0; numb < sentence.length(); numb += 4) {
 			System.out.println(sentence.charAt(numb));
 		}
+		input.close();
 	}
 }

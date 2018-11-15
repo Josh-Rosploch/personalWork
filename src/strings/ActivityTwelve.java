@@ -12,5 +12,6 @@ public class ActivityTwelve {
 				System.out.print(sentence.charAt(numb));
 			}
 		}
+		input.close();
 	}
 }
