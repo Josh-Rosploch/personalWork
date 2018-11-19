@@ -14,5 +14,6 @@ public class CompareTo {
 		System.out.println("----------\na and (b)\n" + a.compareTo(b));
 		System.out.println("----------\nb and (a)\n" + b.compareTo(a));
 		System.out.println("----------\nb and (c)\n" + b.compareTo(c));
+		System.out.println(A.contains("Ab"));
 	}
 }
