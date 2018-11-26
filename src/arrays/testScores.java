@@ -1,19 +1,21 @@
 package arrays;
 
-import java.util.Scanner;
+import java.util.Random;
 
 public class testScores {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		int length = 5;
+		Random rng = new Random(5985);
+		int length = 250;
+		double largest = 0;
 		double[] scores = new double[length];
-		System.out.println("Enter " + length + " test scores.");
 		for (int j = 0; j < length; j++) {
-			scores[j] = input.nextDouble();
+			scores[j] = rng.nextInt(1001);
 		}
-		for (int j = (length - 1); j >= 0; j--) {
-			System.out.println("Score " + (j + 1) + " is: " + scores[j]);
+		for (int j = 0; j < length; j++) {
+			if (largest < scores[j]) {
+				largest = scores[j];
+			}
 		}
-		input.close();
+		System.out.println(largest);
 	}
 }
