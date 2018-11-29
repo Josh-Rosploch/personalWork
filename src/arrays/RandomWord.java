@@ -1,22 +1,16 @@
 package arrays;
 
 import java.util.Scanner;
+import java.util.Random;
 
-public class KeyWord {
+public class RandomWord {
 	public static void main(String[] args) {
+		Random rng = new Random();
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a keyword:");
-		String keyWord = input.nextLine();
 		System.out.println("Enter a sentence:");
 		String sentence = input.nextLine();
 		String[] words = sentence.split(" ");
-		int match = 0;
-		for (int n = 0; n < words.length; n++) {
-			if (words[n].equals(keyWord)) {
-				match++;
-			}
-		}
-		System.out.println(match);
+		System.out.println(words[rng.nextInt(words.length)]);
 		input.close();
 	}
 }
