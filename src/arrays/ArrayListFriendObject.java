@@ -13,7 +13,7 @@ public class ArrayListFriendObject {
 			input.nextLine();
 		}
 		for (int n = 0; n < friends.size(); n++) {
-			System.out.println(friends.get(n).getName());
+			System.out.println(friends.get(n).getName().charAt(friends.get(n).getName().indexOf(' ') + 1));
 		}
 		input.close();
 	}
