@@ -1,10 +1,12 @@
 package DesigningClasses;
 
 public class StaticGreeter {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Greeter joe = new Greeter();
+		Greeter bob = new Greeter(16);
+		System.out.println("Greeter 1:");
+		joe.sayAge();
+		System.out.println("Greeter 2:");
+		bob.sayAge();
 	}
-
 }
