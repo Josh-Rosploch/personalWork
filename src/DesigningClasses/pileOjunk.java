@@ -22,4 +22,12 @@ public class pileOjunk {
 	public void setRandom(int randomNumber) {
 		this.randomNumber = randomNumber;
 	}
+
+	public int getId() {
+		return idNumber;
+	}
+
+	public int getNum() {
+		return randomNumber;
+	}
 }

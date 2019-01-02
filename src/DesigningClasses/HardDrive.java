@@ -3,7 +3,7 @@ package DesigningClasses;
 import java.util.ArrayList;
 
 public class HardDrive {
-	private String name;
+	// private String name;
 	private ArrayList<Double> file = new ArrayList<Double>();
 	private double capacity;
 	private double space;
@@ -14,7 +14,7 @@ public class HardDrive {
 	}
 
 	public HardDrive(String xName, double xCapacity) {
-		name = xName;
+		// name = xName;
 		capacity = xCapacity;
 		space = xCapacity;
 	}
@@ -50,9 +50,5 @@ public class HardDrive {
 		} else {
 			System.out.println("The hard drive is not empty and has " + space + " gb left.");
 		}
-	}
-	
-	public void revesreser(){
-		file.reverse();
 	}
 }

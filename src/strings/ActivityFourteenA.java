@@ -15,12 +15,14 @@ public class ActivityFourteenA {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the author's name?");
 		name = input.nextLine();
+		input.close();
 	}
 
 	public void setText() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the text in the book?");
 		text = input.nextLine();
+		input.close();
 	}
 
 	public String returnLastNameCapital() {
