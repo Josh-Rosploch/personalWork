@@ -51,4 +51,8 @@ public class HardDrive {
 			System.out.println("The hard drive is not empty and has " + space + " gb left.");
 		}
 	}
+	
+	public void revesreser(){
+		file.reverse();
+	}
 }
