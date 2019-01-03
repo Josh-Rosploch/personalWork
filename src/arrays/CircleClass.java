@@ -33,4 +33,7 @@ public class CircleClass {
 		return radius * 2 * Math.PI;
 	}
 
+	public String toString() {
+		return ("Circle object with radius " + radius);
+	}
 }

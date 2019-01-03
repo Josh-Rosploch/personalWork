@@ -12,6 +12,6 @@ public class CircleTest {
 			double rad = input.nextDouble();
 			holes[j] = new CircleClass(rad);
 		}
-
+		input.close();
 	}
 }

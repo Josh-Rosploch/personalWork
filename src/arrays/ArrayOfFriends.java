@@ -20,4 +20,4 @@ public class ArrayOfFriends {
 			System.out.println();
 		}
 	}
-}
+} 
