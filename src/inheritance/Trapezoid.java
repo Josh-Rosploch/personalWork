@@ -1,7 +1,5 @@
 package inheritance;
 
-import interfacesAndPolymorphism.Quadrilateral;
-
 public class Trapezoid extends Quadrilateral implements Geo {
 	private double h;
 

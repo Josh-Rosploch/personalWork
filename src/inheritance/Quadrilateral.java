@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 public class Quadrilateral {
 	private double s1;
@@ -54,5 +54,9 @@ public class Quadrilateral {
 
 	public double perimeter() {
 		return (s1 + s2 + s3 + s4);
+	}
+
+	public String toString() {
+		return ("Quadrilateral: s1 = " + s1 + ", s2 = " + s2 + ", s3 = " + s3 + ", s4 = " + s4 + ".");
 	}
 }
