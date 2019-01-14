@@ -1,4 +1,6 @@
-package interfacesAndPolymorphism;
+package inheritance;
+
+import interfacesAndPolymorphism.Quadrilateral;
 
 public class Parallelogram extends Quadrilateral {
 	private double h;

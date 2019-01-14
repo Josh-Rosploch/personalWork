@@ -1,8 +1,8 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
-public class SquareTest {
+public class NewRectangleTest {
 	public static void main(String[] args) {
-		Square shape = new Square(10);
+		NewRectangle shape = new NewRectangle(10,20);
 		System.out.println("Perimeter: " + shape.perimeter());
 		System.out.println("Area: " + shape.area());
 	}

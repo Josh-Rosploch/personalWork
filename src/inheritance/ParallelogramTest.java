@@ -1,8 +1,8 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
-public class NewRectangleTest {
+public class ParallelogramTest {
 	public static void main(String[] args) {
-		NewRectangle shape = new NewRectangle(10,20);
+		Parallelogram shape = new Parallelogram(1.0, 2.0, 3.0);
 		System.out.println("Perimeter: " + shape.perimeter());
 		System.out.println("Area: " + shape.area());
 	}
