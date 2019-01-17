@@ -1,6 +1,6 @@
 package other;
 
-public class CatStart {
+public class CatStart implements Comparable<CatStart> {
 	private int age;
 	private int sleep;
 
@@ -42,4 +42,11 @@ public class CatStart {
 		sleep--;
 	}
 
+	public int compareTo(CatStart temp) {
+		if (Math.abs(age - temp.getAge()) < 0.001)
+			return 0;
+		if (age < temp.getAge())
+			return -1;
+		return 1;
+	}
 }

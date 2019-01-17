@@ -1,6 +1,6 @@
 package other;
 
-public class WorkerStart {
+public class WorkerStart implements Comparable<WorkerStart> {
 	private int hours;
 	private double rate;
 
@@ -38,4 +38,12 @@ public class WorkerStart {
 	public void raise(double amount) {
 		rate = rate + amount;
 	}
+
+	public int compareTo(WorkerStart temp) {
+		if (Math.abs(rate - temp.getRate()) < 0.001)
+			return 0;
+		if (rate < temp.getRate())
+			return -1;
+		return 1;
+	} 
 }
