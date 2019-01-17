@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 public class NewRectangle extends Parallelogram implements Geo {
 	public NewRectangle() {

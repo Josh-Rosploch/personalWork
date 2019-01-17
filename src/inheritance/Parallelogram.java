@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 public class Parallelogram extends Quadrilateral {
 	private double h;
@@ -23,5 +23,9 @@ public class Parallelogram extends Quadrilateral {
 
 	public double area() {
 		return (super.getS1() * h);
+	}
+
+	public String toString() {
+		return ("Parallelogram: h = " + h + ". " + super.toString());
 	}
 }

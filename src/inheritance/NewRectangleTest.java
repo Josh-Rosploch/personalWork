@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 public class NewRectangleTest {
 	public static void main(String[] args) {

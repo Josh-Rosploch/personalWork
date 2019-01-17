@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 import java.util.ArrayList;
 import java.util.Random;

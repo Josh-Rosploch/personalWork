@@ -1,4 +1,4 @@
-package interfacesAndPolymorphism;
+package inheritance;
 
 public class Square extends NewRectangle {
 	public Square() {
